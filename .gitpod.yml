@@ -1,6 +1,7 @@
 tasks:
   - init: pip3 install -r requirements.txt
-    command: python3 app.py
+    command: streamlit run app.py
+
 
 ports:
     - port: 8501
