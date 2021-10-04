@@ -3,6 +3,13 @@ import streamlit as st
 # working with sample data.
 import numpy as np
 import pandas as pd
+import plotly.express as px
+
+st.set_page_config( 
+    page_title= 'Sales Dashboard',
+    page_icon= ':bar_chart:',
+    
+)
 
 
 df = pd.read_excel( 
